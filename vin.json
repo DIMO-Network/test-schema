@@ -105,16 +105,10 @@
       "credentialSubject": {
         "type": "object",
         "required": [
-          "id",
           "vin",
           "tokenId"
         ],
         "properties": {
-          "id": {
-            "title": "Credential Subject ID",
-            "type": "string",
-            "format": "uri"
-          },
           "vin": {
             "type": "string"
           },
@@ -125,4 +119,3 @@
       }
     }
   }
-  
