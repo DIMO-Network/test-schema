@@ -1,0 +1,29 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "Vin": {
+          "@id": "https://raw.githubusercontent.com/DIMO-Network/test-schema/main/vin.jsonld#Vin",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/DIMO-Network/test-schema/blob/main/vin.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "vin": {
+              "@id": "vocab:vin",
+              "@type": "xsd:string"
+            },
+            "tokenId": {
+                "@id": "vocab:tokenId",
+                "@type": "xsd:integer"
+              }
+          }
+        }
+      }
+    ]
+  }
