@@ -17,10 +17,6 @@
             "vin": {
               "@id": "vocab:vin",
               "@type": "xsd:string"
-            },
-            "tokenId": {
-              "@id": "vocab:tokenId",
-              "@type": "xsd:integer"
             }
           }
         }
